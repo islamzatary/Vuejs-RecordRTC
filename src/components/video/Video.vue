@@ -10,7 +10,7 @@ export default {
     props: [''],
     data: function () {
         return {
-            poster: "",
+            poster: "/static/video-camera.png",
             videoModel:""
         }
     },
@@ -86,5 +86,6 @@ export default {
   box-shadow: 1px 6px 10px 2px rgba(35, 35, 35, 0.62);
   height: 400px;
   max-height: 800px;
+  object-fit: none;
 }
 </style>
